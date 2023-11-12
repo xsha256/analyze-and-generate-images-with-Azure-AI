@@ -1,5 +1,5 @@
-const ANALYZE_IMAGE_ENDPOINT = process.env.REACT_APP_AZURE_ANALYZE_IMAGE_ENDPOINT;
-const SUBSCRIPTION_KEY = process.env.REACT_APP_AZURE_SUBSCRIPTION_KEY;
+const ANALYZE_IMAGE_ENDPOINT = "https://mainaihlrwpsa.cognitiveservices.azure.com/";
+const SUBSCRIPTION_KEY = "71baab76995f47d7a1f60bf64192ea90";
 
 if (!ANALYZE_IMAGE_ENDPOINT || !SUBSCRIPTION_KEY) {
   throw new Error('Azure endpoint and subscription key must be provided.');
